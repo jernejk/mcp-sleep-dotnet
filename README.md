@@ -2,6 +2,14 @@
 
 This repository demonstrates two equivalent Model Context Protocol (MCP) servers written in C#. One keeps everything in a single file, while the other is packaged as an installable .NET global tool. Use whichever deployment style fits your environment.
 
+![Terribly timed punchline!](img/terribly-timed-punchline.png)
+
+**Figure: Without this MCP, joke with comedic timing fall short~**
+
+![We can finally deliver a punchline with the right timing!](img/well-timed-punchline.png)
+
+**Figure: With this MCP, we can finally do perfectly timed comedy! (and time callback and actions)**
+
 ## Project layout
 - `single-file/mcp_sleep.cs` – a self-contained script that you run with the `dotnet` host; useful when you want zero project setup at the cost of referencing the full path.
 - `dotnet-tool/` – a conventional .NET project that can be packed and installed as a global tool, giving you a clean command name (`mcp-sleep`).
