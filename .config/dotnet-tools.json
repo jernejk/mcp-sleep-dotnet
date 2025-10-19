@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "mcpsleep.tool": {
+      "version": "0.1.0",
+      "commands": [
+        "mcp-sleep"
+      ],
+      "rollForward": false
+    }
+  }
+}
