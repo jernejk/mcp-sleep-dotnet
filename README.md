@@ -38,12 +38,12 @@ This repository demonstrates two equivalent Model Context Protocol (MCP) servers
    ```
 2. Pack the tool (outputs into `dotnet-tool/bin/Release`):
    ```bash
-  dotnet pack McpSleep.Tool.csproj -c Release
+   dotnet pack McpSleep.Tool.csproj -c Release
    ```
 3. Install the tool globally from the freshly built package:
-  ```bash
-  dotnet tool install --global McpSleep.Tool --add-source ./bin/Release
-  ```
+   ```bash
+   dotnet tool install --global McpSleep.Tool --add-source ./bin/Release
+   ```
   - To update after rebuilding, run `dotnet tool uninstall --global McpSleep.Tool`, then repeat the install command.
 4. Ensure your shell (and any GUI hosts) can find the tool:
    - **macOS/Linux (zsh/bash):** add `export PATH="$PATH:$HOME/.dotnet/tools"` to `~/.zprofile` or `~/.bashrc`, then reload the shell (`source ~/.zprofile` or open a new terminal).
